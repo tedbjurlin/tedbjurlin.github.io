@@ -18,16 +18,19 @@ h1 {
 
 p {
   font-family: 'Roboto Condensed';
-  font-size:large
+  font-size:large;
+  color:#1f1815
 }
 
 li {
   font-family: 'Roboto Condensed';
-  font-size:large
+  font-size:large;
+  color:#1f1815
 }
 
 h3 {
-  font-family: 'Phudu'
+  font-family: 'Phudu';
+  color:#1f1815
 }
 
 body {
