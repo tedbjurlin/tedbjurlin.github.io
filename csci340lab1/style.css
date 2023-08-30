@@ -39,6 +39,10 @@ body {
   height: 300px;
 }
 
+.main-container{
+  padding-top: 3em;
+}
+
 .narrow-cave{
   background:url('narrow-cave.jpg');
   background-size:cover;
