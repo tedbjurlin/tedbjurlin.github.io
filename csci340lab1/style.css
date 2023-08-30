@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Roboto+Condensed&display=swap');
+
+h1 {
+  font-family:'Phudu';
+  color:bisque
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('cave-south-australia.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 200px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+p {
+  font-family: 'Roboto Condensed';
+  font-size:large
+}
+
+li {
+  font-family: 'Roboto Condensed';
+  font-size:large
+}
+
+h3 {
+  font-family: 'Phudu'
+}
+
+body {
+  background-color:bisque
+}
+
+.myrow{
+  margin: 1em;
+  height: 300px;
+}
+
+.narrow-cave{
+  background:url('narrow-cave.jpg');
+  background-size:cover;
+}
+
+.crystal-cave{
+  background:url('crystal_cave.jpg');
+  background-size:cover;
+}
+
+.cave{
+  background:url('cave.jpg');
+  background-size:cover;
+}
