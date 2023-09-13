@@ -33,6 +33,19 @@ h1 {
     font-family: 'Comic Neue', 'cursive';
 }
 
+.note {
+    padding-top: 600px;
+    color: #fff;
+}
+
+.note p {
+    font-family: 'Comic Neue', 'cursive';
+}
+
+h3 {
+    font-family: 'Bebas Neue', 'sans serif';
+}
+
 input {
     width: 100%;
     color: white;
