@@ -1,0 +1,16 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('poker-chips-1519107624AJv.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 100px;
+    text-shadow: 0.5px 0.5px 0 #000 0.5px 0.5px 0 #000 0.5px 0.5px 0 #000 0.5px 0.5px 0 #000;
+}
+
+.download-div {
+    padding: 20 50 0 50;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
