@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/galaxy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11200,4 +11200,18 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+#dog1 {
+  background-image: url("../assets/img/01.jpg");
+  background-size:cover;
+  float:center;
+  height: 500px;
+}
+
+#dog2 {
+  background-image: url("../assets/img/02.jpg");
+  background-size:cover;
+  float:center;
+  height: 500px;
 }
