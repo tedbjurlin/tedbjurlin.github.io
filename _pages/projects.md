@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio
+title: portfolio
 permalink: /portfolio/
 description: The cool stuff I've made!
 nav: true
