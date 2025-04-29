@@ -1,81 +1,18 @@
 ---
 layout: page
-title: Altoids Computer
-description: with background image
-img: assets/img/12.jpg
+title: H-Intercal
+description: A Haskell Intercal Interpreter
 importance: 1
-category: work
+category: school
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Intercal is a wild language. It was created in 1972 by Don Woods and James M. Lyon as a parody of contemporary programming languages. At its core, it was designed to share as few language features with other programming languages as possible. Instead, it made use of features such as the FORGET statement or the mesh operator (#). If these don't sound familiar, don't worry! Don and James made them up entirely.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Since Intercal is clearly the least functional language every created (in both senses of the word), it seemed only appropriate that I implement and interpreter for it in Haskell, a functional programming language (in both senses of the word). Enter [H-Intercal](https://github.com/tedbjurlin/H-Intercal), a haskell interpreter for Intercal.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In true Intercal fashion, this implementation works just a little differnetly from all of the others, such as [C-Intercal](https://esolangs.org/wiki/C-INTERCAL). In addition to being a complete implementation of the [Intercal-72](http://www.catb.org/~esr/intercal/) spec, plus a few features from C-Intercal, such as COME FROM statements (like GOTOs, but backwards).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+This project was a whole lot of fun to build, and I am truly in awe of whoever created [Intecal on Interstates](https://www.intercaloninterstates.org/).
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Check out my source code here: [[https://github.com/tedbjurlin/H-Intercal]]
