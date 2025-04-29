@@ -4,7 +4,7 @@ title: Altoids Computer
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: personal
 related_publications: true
 ---
 
