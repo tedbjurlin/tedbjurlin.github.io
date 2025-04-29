@@ -15,4 +15,4 @@ In true Intercal fashion, this implementation works just a little differnetly fr
 
 This project was a whole lot of fun to build, and I am truly in awe of whoever created [Intecal on Interstates](https://www.intercaloninterstates.org/).
 
-Check out my source code here: [https://github.com/tedbjurlin/H-Intercal]
+Check out my source code here: [https://github.com/tedbjurlin/H-Intercal](https://github.com/tedbjurlin/H-Intercal)
