@@ -5,7 +5,7 @@ description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: personal
-related_publications: true
+related_publications: false
 ---
 
 ## Coming Soon: How I fit an entire linux computer, with a qwerty keyboard and display, in an altoids tin!
