@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Altoids Computer
+title: Coming Soon - Altoids Computer
 description: with background image
 img: assets/img/12.jpg
 importance: 1
