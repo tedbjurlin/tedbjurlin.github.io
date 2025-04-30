@@ -112,7 +112,7 @@ I also experimented with other color spaces and techniques, but I didn't like th
     </div>
 </div>
 <div class="caption">
-    The rightmost image assigns certain colors to ranges of pixel brightness. The middle image picks random colors for a black and white image. The rightmost image generates separate flow fields for each color channel.
+    The leftmost image assigns certain colors to ranges of pixel brightness. The middle image picks random colors for a black and white image. The rightmost image generates separate flow fields for each color channel.
 </div>
 
 ## Check It Out
