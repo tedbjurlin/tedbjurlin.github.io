@@ -1,6 +1,6 @@
 ---
 layout: page
-title: flow field portrats
+title: Flow Field Portraits
 description: A flowfield-based image filter
 img: assets/img/Field148.png
 importance: 1
@@ -10,7 +10,7 @@ related_publications: false
 
 ## The Inspiration
 
-I completed this project during my freshman year at Hendrix College. At the time, I was still learning to build larger scale projects, and this was one of my first self-directed large coding projects (large being relative). I was inspired by [Tyler Hobbs](https://www.tylerxhobbs.com/) and his flow filed art, which he describes [here](https://www.tylerxhobbs.com/words/flow-fields). I was fascinated by the ways that small variations in the noise algorithms and seeding process in his images created wildly different art.
+I completed this project during my freshman year at Hendrix College. At the time, I was still learning to build larger scale projects, and this was one of my first self-directed large coding projects (large being relative). I was inspired by [Tyler Hobbs](https://www.tylerxhobbs.com/) and his flow field art, which he describes [here](https://www.tylerxhobbs.com/words/flow-fields). I was fascinated by the ways that small variations in the noise algorithms and seeding process in his images created wildly different art.
 
 For my attempt, I wanted to explore how flow field images could be seeded by existing photographs, rather than noise. For most of my images, I used pictures of myself and my friends.
 
@@ -22,7 +22,7 @@ Once I had a field, I spawned lines using several different seeding techniques, 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Field1.png" title="A simple flow field" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Field15.png" title="A simple flow field" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -91,7 +91,7 @@ My other main technique was to draw each channel in a separate image, then combi
         {% include figure.liquid loading="eager" path="assets/img/Field148.png" title="Layering color channels" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Field169" title="Mixing color channels" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Field169.png" title="Mixing color channels" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -117,4 +117,4 @@ I also experimented with other color spaces and techniques, but I didn't like th
 
 ## Check It Out
 
-If you want to play around with it yourself, the project is hosted on my GitHub [here]()
+If you want to play around with it yourself, the project is hosted on my GitHub [here](https://github.com/tedbjurlin/flow_field_portraits)
